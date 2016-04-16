@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CÁLCULAR CANTIDAD GALONES DE LECHE</title>
+		<script type="text/javascript" src="Js/main.js"></script>
+		<style>
+			body{
+				font-family: sans-serif;
+			}
+			table {
+				border-color: black;
+				text-align: center;
+			}
+			.titulo{
+				background-color:#08088A ;
+				color: white;
+			}
+			.content{
+				width: 100%;
+				height: auto;
+			}
+			.section1{
+				width: 27%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			.section2{
+				width: 48%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			img{
+				width: 120%;
+				height: auto;
+			}
+			span{
+				color: #E2800F;
+			    font-style: italic;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.constante{
+				color: #088A85;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+	</style>
+	</head>
+	<body>
+	<center>
+		<h1>Ejercicio #4: CÁLCULAR CANTIDAD GALONES DE LECHE</h1>
+		<p>		
+		Un productor de leche lleva el registro de lo que produce en litros, pero cuando entrega le pagan en galones.
+		</p>
+		<p>
+		Realice un algoritmo, y represéntelo mediante un diagrama de flujo y el pseudocódigo, que ayude al productor a saber cuánto recibirá por la entrega de su producción de un día (1 galón= 3.785 litros).
+	</p>
+	</center>
+	<div class="content">
+			<div class="section1">
+				<h2>Pseudocódigo</h2>
+				<table>
+				<caption><strong><h3>Variables</h3></strong></caption>
+						<tr>
+							<td class="titulo">
+								Nombre
+							</td>
+							<td class="titulo">
+								Descripción
+							</td>
+							<td class="titulo">
+								Tipo
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 litros
+							</td>
+							<td>
+								Primer valor a divir
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 respuesta
+							</td>
+							<td>
+								Resultado de la división
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+				</table>
+				<br>
+				<br>
+				<center><h3>Proceso</h3></center>
+				<ol>
+					<li>Inicio</li>
+					<li>Leer <span>"litros"</span></li>
+					<li>Hacer <span>"respuesta"</span> = <span>"litros"</span> / <span class="constante"> 3.785 </span></li>
+					<li>Escribir <span>"respuesta"</span> </li>
+					<li>Fin</li>
+				</ol>
+			</div>
+			<div class="section2">
+				<h2>Diagrama de Flujo</h2>
+				<img src="eje4.png">
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,144 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CONVERSION MEDIDAS DE LA TELA</title>
+		<script type="text/javascript" src="Js/main.js"></script>
+			<style>
+			body{
+				font-family: sans-serif;
+			}
+			table {
+				border-color: black;
+				text-align: center;
+			}
+			.titulo{
+				background-color:#08088A ;
+				color: white;
+			}
+			.content{
+				width: 100%;
+				height: auto;
+			}
+			.section1{
+				width: 27%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			.section2{
+				width: 48%;
+				display: inline-table;
+				height: auto;
+				padding-top: 5%;
+			}
+			img{
+				width: 120%;
+				height: 450px;
+			}
+			span{
+				color: #E2800F;
+			    font-style: italic;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+			.constante{
+				color: #088A85;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+	</style>
+	</head>
+	<body>
+	<center>
+	<h1>Ejercicio #6: CONVERSION MEDIDAS DE LA TELA</h1>
+	<p>
+		Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella generalmente las tiene en metros.
+	</p>
+	<p>
+		Realice un algoritmo para ayudar a resolver el problema, determinando cuántas pulgadas debe pedir con base en los metros que requiere.
+	</p>
+	<p>
+		Represéntelo mediante el diagrama de flujo y el pseudocódigo (1 pulgada = 0.0254 m).
+	</p>
+	</center>
+	<div class="content">
+			<div class="section1">
+				<h2>Pseudocódigo</h2>
+				<table>
+				<caption><strong><h3>Variables</h3></strong></caption>
+						<tr>
+							<td class="titulo">
+								Nombre
+							</td>
+							<td class="titulo">
+								Descripción
+							</td>
+							<td class="titulo">
+								Tipo
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 alto
+							</td>
+							<td>
+								Primer valor dividir
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 ancho
+							</td>
+							<td>
+								Segundo valor a dividir
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 respuesta_alto
+							</td>
+							<td>
+								Resultado de la división
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 respuesta_ancho
+							</td>
+							<td>
+								Resultado de la división
+							</td>
+							<td>
+								Float
+							</td>
+						</tr>
+				</table>
+				<br>
+				<br>
+				<center><h3>Proceso</h3></center>
+				<ol>
+					<li>Inicio</li>
+					<li>Leer <span>"alto"</span> y <span> "ancho"</span></li>
+					<li>Hacer <span>"respuesta_alto"</span> = <span>"alto"</span> / <span class="constante"> 0.0254</span></li>
+					<li>Escribir <span>"respuesta_alto"</span> </li>
+					<li>Hacer <span>"respuesta_ancho"</span> = <span>"ancho"</span> / <span class="constante"> 0.0254</span></li>
+					<li>Escribir <span>"respuesta_ancho"</span> </li>
+					<li>Fin</li>
+				</ol>
+			</div>
+			<div class="section2">
+				<h2>Diagrama de Flujo</h2>
+				<img src="eje6.png">
+			</div>
+		</div>	
+	</body>
+</html>

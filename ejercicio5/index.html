@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SUELDO</title>
+		<script type="text/javascript" src="Js/main.js"></script>
+			<style>
+			body{
+				font-family: sans-serif;
+			}
+			table {
+				border-color: black;
+				text-align: center;
+			}
+			.titulo{
+				background-color:#08088A ;
+				color: white;
+			}
+			.content{
+				width: 100%;
+				height: auto;
+			}
+			.section1{
+				width: 33%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			.section2{
+				width: 42%;
+				display: inline-table;
+				height: auto;
+				padding: 5%;
+			}
+			img{
+				width: 120%;
+				height: auto;
+			}
+			span{
+				color: #E2800F;
+			    font-style: italic;
+			    font-family: serif;
+			    font-weight: bolder;
+			}
+	</style>
+	</head>
+	<body>
+	<center>
+		<h1>Ejercicio #5: SUELDO </h1>
+		<p>
+		Se requiere determinar el sueldo semanal de un trabajador con base en las horas que trabaja y el pago por hora que recibe.
+		</p>
+		<p>
+		Realice el diagrama de flujo y el pseudocódigo que representen el algoritmo de solución correspondiente
+		</p>
+	</center>
+	<div class="content">
+			<div class="section1">
+				<h2>Pseudocódigo</h2>
+				<table>
+				<caption><strong><h3>Variables</h3></strong></caption>
+						<tr>
+							<td class="titulo">
+								Nombre
+							</td>
+							<td class="titulo">
+								Descripción
+							</td>
+							<td class="titulo">
+								Tipo
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 sueldo
+							</td>
+							<td>
+								Primer valor a multiplicar
+							</td>
+							<td>
+								Int
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 dias
+							</td>
+							<td>
+								Segundo valor a multiplicar
+							</td>
+							<td>
+								Int
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 horas_diarias
+							</td>
+							<td>
+								Segundo valor a multiplicar
+							</td>
+							<td>
+								Int
+							</td>
+						</tr>
+						<tr>
+							<td>
+							 respuesta
+							</td>
+							<td>
+								Resultado de la multiplicación
+							</td>
+							<td>
+								Undefined
+							</td>
+						</tr>
+				</table>
+				<br>
+				<br>
+				<center><h3>Proceso</h3></center>
+				<ol>
+					<li>Inicio</li>
+					<li>Leer <span>"sueldo"</span>, <span>"dias"</span> y <span> "horas_diarias"</span></li>
+					<li>Hacer <span>"respuesta"</span> = <span>"sueldo"</span> * <span> "dias"</span> * <span> "horas_diarias"</span></li>
+					<li>Escribir <span>"respuesta"</span> </li>
+					<li>Fin</li>
+				</ol>
+			</div>
+			<div class="section2">
+				<h2>Diagrama de Flujo</h2>
+				<img src="eje5.png">
+			</div>
+		</div>
+	</body>
+</html>
